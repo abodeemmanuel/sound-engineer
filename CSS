@@ -1,0 +1,59 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(Back..jpg);
+    background-size: cover;
+}
+.nav-bar{
+    background-color: rgba(0, 119, 255, 0.541);
+}
+.nav-bar:hover{
+    transition: 1s;
+    background: rgba(255, 255, 255, 0.342);
+}
+.name{
+    margin: 0%;
+    padding: 0%;
+    font-size: 90px;
+    color: white;
+    padding-left: 35px;
+    font-family: oblique ;
+    display: inline-block;
+}
+.links{
+    display: inline-block;
+    margin-left: 130vH;
+    word-spacing: 15px;
+    font-size: 35px;
+
+}
+.linkstobeclicked{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(15, 1, 1);
+}
+.linkstobeclicked:hover{
+    transition: 1s;
+    color: wheat;
+}
+.text{
+    color: rgba(255, 255, 255, 0.822);
+    padding-left: 40px;
+    font-size: 80px;
+    margin-bottom: 0%;
+}
+.text2{
+    padding: 20px;
+    margin-top: 0%;
+    font-size: 40px;
+    padding-left: 40px;
+    color: rgba(255, 255, 255, 0.822);
+    animation: specialize 1s ease-in  infinite alternate both;
+}
+@keyframes specialize{
+    0%{opacity: 0%;padding-left: 40px;}
+    100%{opacity: 100%;padding-left: 60px;}
+   
+    
+
+}
